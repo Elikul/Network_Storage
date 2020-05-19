@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="networkStorageserver" />
+        <module name="networkStorage-server" />
         <module name="networkStoragecommon" />
+        <module name="networkStorage-common" />
         <module name="networkStorageclient" />
+        <module name="networkStorageserver" />
+        <module name="networkStorage-client" />
       </profile>
     </annotationProcessing>
   </component>
