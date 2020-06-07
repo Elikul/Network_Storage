@@ -1,11 +1,11 @@
 public class FileRequest extends AbstractMessage {
-    private String filename;
+    private String fileName;
 
-    public String getFilename() {
-        return filename;
+    public String getFileName() {
+        return fileName;
     }
 
-    public FileRequest(String filename) {
-        this.filename = filename;
+    public FileRequest(String _fileName) {
+        this.fileName = _fileName;
     }
 }
